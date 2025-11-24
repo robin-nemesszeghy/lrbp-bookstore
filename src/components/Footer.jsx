@@ -1,27 +1,28 @@
 import React from "react";
 import Logo from "../assets/Little Red Bird Publishing Favicon Transparent.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer>
       <div className="container">
         <div className="row row__column">
-          <a href="/">
+          <Link to="/">
             <figure className="footer__logo">
               <img className="footer__logo--img" src={Logo} alt="" />
             </figure>
-          </a>
+          </Link>
           <div className="footer__list">
-            <a className="footer__link" href="/">
+            <Link className="footer__link" to="/">
               Home
-            </a>
+            </Link>
             <span className="footer__link no-cursor">About</span>
-            <a className="footer__link" href="/books">
+            <Link className="footer__link" to="/books">
               Books
-            </a>
-            <a className="footer__link" href="/cart">
+            </Link>
+            <Link className="footer__link" to="/cart">
               Cart
-            </a>
+            </Link>
           </div>
           <div className="footer__copyright">
             Copyright &copy; 2026 Little Red Bird Publishing

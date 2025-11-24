@@ -1,5 +1,6 @@
 import React from "react";
 import UndrawBooks from "../assets/undraw_bookshelves_vhu6.svg";
+import { Link } from "react-router-dom";
 
 function Landing() {
   return (
@@ -12,9 +13,9 @@ function Landing() {
               Find your dream book with
               <span className="beige"> Little Red's Library</span>
             </h2>
-            <a href="#features">
+            <Link to="#features">
               <button className="btn">Browse Books</button>
-            </a>
+            </Link>
           </div>
           <figure className="header__img--wrapper">
             <img src={UndrawBooks} alt="" />

@@ -7,6 +7,9 @@ export const books = [
     originalPrice: 24.99,
     salePrice: 14.99,
     rating: 4.5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 2,
@@ -16,6 +19,9 @@ export const books = [
     originalPrice: 24.99,
     salePrice: 14.99,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 3,
@@ -25,6 +31,9 @@ export const books = [
     originalPrice: 21.99,
     salePrice: 9.99,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 4,
@@ -34,6 +43,9 @@ export const books = [
     originalPrice: 21.99,
     salePrice: 9.99,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 5,
@@ -43,6 +55,9 @@ export const books = [
     originalPrice: 24.99,
     salePrice: 14.99,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 6,
@@ -52,6 +67,9 @@ export const books = [
     originalPrice: 24.99,
     salePrice: 14.99,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 7,
@@ -61,6 +79,9 @@ export const books = [
     originalPrice: 24.99,
     salePrice: 14.99,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 8,
@@ -70,6 +91,9 @@ export const books = [
     originalPrice: 27.79,
     salePrice: 19.97,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 9,
@@ -79,6 +103,9 @@ export const books = [
     originalPrice: 27.79,
     salePrice: 0,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 10,
@@ -88,6 +115,9 @@ export const books = [
     originalPrice: 25.99,
     salePrice: 15.99,
     rating: 4.5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 11,
@@ -97,6 +127,9 @@ export const books = [
     originalPrice: 25.99,
     salePrice: 15.99,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 12,
@@ -106,6 +139,9 @@ export const books = [
     originalPrice: 25.99,
     salePrice: 15.99,
     rating: 4.5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 13,
@@ -115,6 +151,9 @@ export const books = [
     originalPrice: 25.99,
     salePrice: 15.99,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 14,
@@ -142,6 +181,9 @@ export const books = [
     originalPrice: 49.95,
     salePrice: 14.95,
     rating: 4.5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 17,
@@ -151,6 +193,9 @@ export const books = [
     originalPrice: 39,
     salePrice: null,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 18,
@@ -160,6 +205,9 @@ export const books = [
     originalPrice: 29,
     salePrice: null,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 19,
@@ -169,6 +217,9 @@ export const books = [
     originalPrice: 44,
     salePrice: 19,
     rating: 4.5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 20,
@@ -178,6 +229,9 @@ export const books = [
     originalPrice: 32,
     salePrice: null,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 21,
@@ -187,6 +241,9 @@ export const books = [
     originalPrice: 70,
     salePrice: 12.5,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 22,
@@ -195,6 +252,9 @@ export const books = [
     originalPrice: 11,
     salePrice: 10,
     rating: 4,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 23,
@@ -204,6 +264,9 @@ export const books = [
     originalPrice: 38,
     salePrice: 17.95,
     rating: 4.5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 24,
@@ -213,6 +276,9 @@ export const books = [
     originalPrice: 35,
     salePrice: 19.95,
     rating: 4.5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 25,
@@ -222,6 +288,9 @@ export const books = [
     originalPrice: 40,
     salePrice: null,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 26,
@@ -231,6 +300,9 @@ export const books = [
     originalPrice: 30,
     salePrice: 20,
     rating: 5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
   {
     id: 27,
@@ -240,5 +312,8 @@ export const books = [
     originalPrice: 30,
     salePrice: 12.95,
     rating: 4.5,
+    hook: "One line introducing the book",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, obcaecati optio! Repellendus dolorum quibusdam ducimus velit, libero odio praesentium alias repudiandae sapiente sunt inventore ipsam voluptas, distinctio voluptate non. Maiores.",
   },
 ];

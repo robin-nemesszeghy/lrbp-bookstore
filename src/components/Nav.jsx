@@ -1,8 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LittleRedLogo from "../assets/Little Red Bird Publishing Favicon Transparent.png";
+import { Link } from "react-router-dom";
 
-function Nav() {
+function Nav({ numberOfItems }) {
   function openMenu() {
     document.body.classList += " menu--open";
   }
@@ -14,28 +15,30 @@ function Nav() {
   return (
     <div>
       <div className="nav__container">
-        <a href="/">
+        <Link to="/">
           <img className="logo" src={LittleRedLogo} alt="" />
-        </a>
+        </Link>
         <ul className="nav__links">
           <li className="nav__list">
-            <a className="nav__link" href="/">
+            <Link className="nav__link" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav__list">
-            <a className="nav__link" href="/">
+            <Link className="nav__link" to="/books">
               Books
-            </a>
+            </Link>
           </li>
           <button className="btn__menu" onClick={openMenu}>
             <FontAwesomeIcon icon="bars" />
           </button>
           <li className="nav__icon">
-            <a className="nav__link" href="/cart">
+            <Link className="nav__link" to="/cart">
               <FontAwesomeIcon icon="shopping-cart" />
-            </a>
-            <span className="cart__length">2</span>
+            </Link>
+            {numberOfItems > 0 && (
+              <span className="cart__length">{numberOfItems}</span>
+            )}
           </li>
         </ul>
         <div className="menu__backdrop">
@@ -44,19 +47,19 @@ function Nav() {
           </button>
           <ul className="menu__links">
             <li className="menu__list">
-              <a className="menu__link" href="/">
+              <Link className="menu__link" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="menu__list">
-              <a className="menu__link" href="/books">
+              <Link className="menu__link" to="/books">
                 Books
-              </a>
+              </Link>
             </li>
             <li className="menu__list">
-              <a className="menu__link" href="/cart">
+              <Link className="menu__link" to="/cart">
                 Cart
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
