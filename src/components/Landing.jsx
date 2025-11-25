@@ -13,9 +13,9 @@ function Landing() {
               Find your dream book with
               <span className="beige"> Little Red's Library</span>
             </h2>
-            <Link to="#features">
+            <a href="#features">
               <button className="btn">Browse Books</button>
-            </Link>
+            </a>
           </div>
           <figure className="header__img--wrapper">
             <img src={UndrawBooks} alt="" />
